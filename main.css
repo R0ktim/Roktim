@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-letter{
+    color: #d1b325;
+}
+
+h2{
+    font-family: Roboto-h2;
+    color: rgb(80, 79, 79);
+}
+
+/* ------ fonts ------ */
+
+@font-face{
+    font-family: Pacifico;
+    src: url(/fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face{
+    font-family: Roboto-nav;
+    src: url(/fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face{
+    font-family: Roboto-h1;
+    src: url(/fonts/Roboto/Roboto-Black.ttf);
+}
+
+@font-face{
+    font-family: Roboto-h2;
+    src: url(/fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face{
+    font-family: Roboto-body;
+    src: url(/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+/* ---X--- fonts ---X--- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------navigation bar ---------- */
+
+.nav-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    padding: 0 5rem;
+    width: 100%;
+    position: absolute;
+}
+
+.nav-body .nav-logo a{
+    text-decoration: none;
+    font-family: Pacifico;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem 1.8rem;
+}
+
+.nav-menu .nav-items{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-menu .nav-items .nav-item{
+    list-style-type: none;
+}
+
+.nav-menu .nav-items .nav-item a{
+    text-decoration: none;
+    display: block;
+    padding: 1.5rem 1.8rem;
+    font-size: 0.9rem;
+    font-family:Roboto-nav;
+    color: #fff;
+}
+
+.nav-menu .nav-items .nav-item a:hover{
+    background: rgba(13, 98, 108, 0.75);
+}
+
+.nav-menu .nav-items .nav-item a:hover .menu-first-letter{
+    color: #d1b325;
+}
+
+
+/* -----X----navigation bar -----X----- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------- header section----------- */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(18, 28, 68, 0.75) 0%, rgba(13, 98, 108, 0.75) 100%), url(img/ia_100000000.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header .container{
+    text-align: center;
+}
+
+header .container p{
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: Roboto-body;
+}
+
+header .container h1{
+    font-family: Roboto-h1;
+    font-size: 3rem;
+    color: #fff;
+    margin: 1rem 0 0.7rem 0;
+}
+
+header .container h2{
+    font-family: Pacifico;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+header .container button{
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: #d1b325;
+    font-weight: bold;
+    color: #000;
+}
+
+/* -----X----- header section------X----- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------- about section -------------- */
+.about{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15vw;
+}
+
+.about h2{
+    font-size: 2rem;
+    margin: 2rem 0 4rem 0;
+}
+
+.own-image{
+    width: 11rem;
+    height: 11rem;
+    margin-bottom: 2rem;
+}
+
+.own-image img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about p{
+    text-align: center;
+    font-family: Roboto-body;
+    color: rgb(114, 113, 113);
+    font-size: 1.1rem;
+}
+
+
+.about .social .social-icons{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.about .social .social-icons .social-icon{
+    list-style-type: none;
+    margin: 0 1rem;
+}
+
+.about .social .social-icons .social-icon a{
+    color: rgba(13, 98, 108, 0.75);
+    font-size: 2rem;
+}
+
+.about .social .social-icons .social-icon a:hover{
+    color: #d1b325;
+}
+
+/* ------X------- about section -------X------- */
